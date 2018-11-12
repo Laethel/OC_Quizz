@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".GameActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/game_question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="Question ?" />
+
+    <Button
+        android:id="@+id/game_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="6dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Answer 1"/>
+
+    <Button
+        android:id="@+id/game_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Answer 2" />
+
+    <Button
+        android:id="@+id/game_answer3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Answer 3" />
+
+    <Button
+        android:id="@+id/game_answer4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6dp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Answer 4" />
+
+</LinearLayout>
